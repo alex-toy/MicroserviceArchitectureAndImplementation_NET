@@ -41,21 +41,21 @@ namespace Basket.API.Controllers
             return Ok(basket ?? new ShoppingCart(userName));
         }
 
-        //[HttpPost]
-        //[ProducesResponseType(typeof(ShoppingCart), (int)HttpStatusCode.OK)]
-        //public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket)
-        //{
-        //    // TODO : Communicate with Discount.Grpc
-        //    // and Calculate latest prices of product into shopping cart
-        //    // consume Discount Grpc
-        //    foreach (var item in basket.Items)
-        //    {
-        //        var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
-        //        item.Price -= coupon.Amount;
-        //    }
+        [HttpPost]
+        [ProducesResponseType(typeof(ShoppingCart), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket)
+        {
+            // TODO : Communicate with Discount.Grpc
+            // and Calculate latest prices of product into shopping cart
+            // consume Discount Grpc
+            //foreach (var item in basket.Items)
+            //{
+            //    var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
+            //    item.Price -= coupon.Amount;
+            //}
 
-        //    return Ok(await _repository.UpdateBasket(basket));
-        //}
+            return Ok(await _repository.UpdateBasket(basket));
+        }
 
         [HttpDelete("{userName}", Name = "DeleteBasket")]
         [ProducesResponseType(typeof(void), (int)HttpStatusCode.OK)]
