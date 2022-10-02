@@ -34,8 +34,10 @@ Go inside Developper Powershell
 - Run *Catalog* microservice **containerized**
     - In *appsettings.Development.json*, set : "ConnectionString": "mongodb://catalogdb:27017"
     - run : docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
-    - go to : http://localhost:8000/swagger/index.html
+    - go to : http://localhost:8080/swagger/index.html
     - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+
+<img src="/pictures/catalog_swagger.png" title="catalog swagger"  width="800">
 
 - Debug
     - mogoclient : docker run -d -p 3000:3000 mongoclient/mongoclient
@@ -73,6 +75,8 @@ Go inside Developper Powershell
     - go to : http://localhost:8001/swagger/index.html
     - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
 
+<img src="/pictures/basket_swagger.png" title="basket swagger"  width="800">
+
 
 
 ## DummyCookie.API with Redis
@@ -93,6 +97,16 @@ Go inside Developper Powershell
     - docker run -d -p 6380:6380 --name cookie-redis redis
     - or : docker start cookie-redis
     - Hit **DummyCookie**
+
+
+
+## Portainer
+
+- run : docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to : http://localhost:9000
+- Create a user
+
+<img src="/pictures/portainer.png" title="portainer"  width="800">
 
 
 
