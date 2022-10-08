@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj": {}
+    "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj": {}
   },
   "projects": {
-    "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj": {
+    "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj",
+        "projectUniqueName": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj",
         "projectName": "DummyCookie",
-        "projectPath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj",
+        "projectPath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\obj\\",
+        "outputPath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",

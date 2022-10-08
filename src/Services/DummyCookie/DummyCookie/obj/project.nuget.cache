@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g3kfc8X6I89UByI9xtCl9ykblMi1TfO/l7j04J32sQLz58MH3sg5cE/UuNgrewJNUtk/VTUyIv5/PLRMt5WkrA==",
+  "dgSpecHash": "nxvvOzpwT9B9PyMcTK++ivDkrwq1LW2I56tEC15qjiGQsO6JDblxpwYMOrMzHtcyRJlJ0Oa6u9LMqXBECU1ZEA==",
   "success": true,
-  "projectFilePath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj",
+  "projectFilePath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\DummyCookie\\DummyCookie\\DummyCookie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexe\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.jsonpatch.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\alexe\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0-rc.1.21452.15.nupkg.sha512",

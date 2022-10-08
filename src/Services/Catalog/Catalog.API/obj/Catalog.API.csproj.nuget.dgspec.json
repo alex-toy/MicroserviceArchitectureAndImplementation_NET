@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\obj\\",
+        "outputPath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1540,11 +1540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectUniqueName": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "projectName": "Basket.API",
-      "projectPath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectPath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Basket\\Basket.API\\obj\\",
+      "outputPath": "C:\\source\\Csharp\\MicroserviceArchitectureAndImplementation_NET\\src\\Services\\Basket\\Basket.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
