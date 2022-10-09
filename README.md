@@ -171,6 +171,35 @@ Go inside Developper Powershell
 
 
 
+## Discount.Grpc 
+
+1. Package Manager Command
+
+- Install-Package Npgsql 
+- Install-Package Dapper 
+- Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection 
+- Update-Package -ProjectName Discount.Grpc
+
+2. steps : 
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to **portainer** : http://localhost:9000
+
+<img src="/pictures/portainer_discount.png" title="portainer"  width="800">
+
+3. Run *Discount.API* microservice **locally**
+    - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+    - run : docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+    - Hit **Discount.API**
+
+<img src="/pictures/discount_local.png" title="portainer"  width="800">
+
+- Run *Discount.API* microservice **containerized**
+    - run : docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+    - go to : http://localhost:8002/swagger/index.html
+    - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+
+
+
 
 
 
