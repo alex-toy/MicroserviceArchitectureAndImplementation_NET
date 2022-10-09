@@ -100,3 +100,10 @@ C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Bask
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Google.Protobuf.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Grpc.Net.Common.dll

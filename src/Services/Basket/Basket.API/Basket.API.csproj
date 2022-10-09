@@ -12,20 +12,31 @@
 
   <ItemGroup>
     <Compile Remove="GrpcServices\**" />
-    <Compile Remove="Mapper\**" />
     <Content Remove="GrpcServices\**" />
-    <Content Remove="Mapper\**" />
     <EmbeddedResource Remove="GrpcServices\**" />
-    <EmbeddedResource Remove="Mapper\**" />
     <None Remove="GrpcServices\**" />
-    <None Remove="Mapper\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Mapper\BasketProfile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="GrpcServices\DiscountGrpcService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.0-rc.1.22427.2" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\..\Discount\Discount.Grpc\Protos\discount.proto" GrpcServices="Client">
+      <Link>Protos\discount.proto</Link>
+    </Protobuf>
   </ItemGroup>
 
   <ItemGroup>
@@ -41,6 +52,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapper\" />
   </ItemGroup>
 
 </Project>
