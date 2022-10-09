@@ -206,21 +206,23 @@ Go inside Developper Powershell
 
 - You should now see the previously created tables :
 
-<img src="/pictures/pgadmin6.png" title="portainer"  width="300">
+<img src="/pictures/pgadmin6.png" title="portainer"  width="500">
 
 
 
+## Ordering.API 
 
+1. Package Manager Command
 
+- Install-Package Npgsql 
+- Install-Package Dapper 
+- Update-Package -ProjectName Discount.API
 
+2. steps : 
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to  : http://localhost:9000
 
-
-
-
-
-
-
-
+<img src="/pictures/portainer_discount.png" title="portainer"  width="800">
 
 
 

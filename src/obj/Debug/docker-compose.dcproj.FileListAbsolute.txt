@@ -65,3 +65,11 @@ C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Grp
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Grpc.Net.ClientFactory.dll
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Grpc.Net.Client.dll
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Grpc.Net.Common.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Discount.Grpc.deps.json
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Discount.Grpc.runtimeconfig.json
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Discount.Grpc.exe
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Discount.Grpc.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\AutoMapper.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Grpc.AspNetCore.Server.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\bin\Debug\Discount.Grpc.pdb

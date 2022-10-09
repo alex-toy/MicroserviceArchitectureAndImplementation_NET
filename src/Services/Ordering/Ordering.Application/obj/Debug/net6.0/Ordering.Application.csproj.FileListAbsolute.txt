@@ -1,0 +1,5 @@
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.AssemblyReference.cache
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.AssemblyInfoInputs.cache
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.AssemblyInfo.cs
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.CoreCompileInputs.cache
