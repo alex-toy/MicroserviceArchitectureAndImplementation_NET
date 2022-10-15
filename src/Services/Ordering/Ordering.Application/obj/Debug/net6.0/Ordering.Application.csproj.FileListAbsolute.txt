@@ -1,5 +1,15 @@
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Application.deps.json
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Application.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Application.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Domain.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Domain.pdb
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.AssemblyReference.cache
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.AssemblyInfoInputs.cache
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.AssemblyInfo.cs
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.CoreCompileInputs.cache
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.CopyComplete
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\refint\Ordering.Application.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\ref\Ordering.Application.dll

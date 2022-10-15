@@ -5,15 +5,17 @@ https://github.com/mehmetozkaya/AspnetMicroservices
 ## Generals
 
 ### Docker general commands
-    - docker ps
-    - stop all containers : docker stop $(docker ps -aq)
-    - remove all containers : docker rm $(docker ps -aq) --force
-    - remove all images : docker rmi $(docker images -q)
-    - remove unnamed images : docker system prune
-    - docker start shopping-mongo
-    - docker run -d -p 27017:27017 --name shopping-mongo mongo
-    - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
-    - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+```
+docker ps
+stop all containers : docker stop $(docker ps -aq)
+remove all containers : docker rm $(docker ps -aq) --force
+remove all images : docker rmi $(docker images -q)
+remove unnamed images : docker system prune
+docker start shopping-mongo
+docker run -d -p 27017:27017 --name shopping-mongo mongo
+docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+```
 
 
 
@@ -174,11 +176,12 @@ Go inside Developper Powershell
 ## Discount.Grpc 
 
 1. Package Manager Command
-
-- Install-Package Npgsql 
-- Install-Package Dapper 
-- Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection 
-- Update-Package -ProjectName Discount.Grpc
+```
+Install-Package Npgsql 
+Install-Package Dapper 
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection 
+Update-Package -ProjectName Discount.Grpc
+```
 
 2. Add **Connected Services** : 
 
@@ -210,13 +213,42 @@ Go inside Developper Powershell
 
 
 
-## Ordering.API 
+## Ordering
 
-1. Package Manager Command
+### Packages
 
-- Install-Package Npgsql 
-- Install-Package Dapper 
-- Update-Package -ProjectName Discount.API
+1. Package Manager Command in **Ordering.API**
+```
+Install-Package AutoMapper
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+Install-Package MassTransit
+```
+
+2. Package Manager Command in **Ordering.Application**
+```
+Install-Package MediatR.Extensions.Microsoft.DependencyInjection 
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection 
+Install-Package AutoMapper
+Install-Package Microsoft.Extensions.Logging.Abstractions  
+Install-Package FluentValidation 
+Install-Package FluentValidation.DependencyInjectionExtensions
+Install-Package Microsoft.EntityFrameworkCore.Tools
+```
+
+3. Package Manager Command in **Ordering.Infrastructure**
+```
+Install-Package AutoMapper
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package MassTransit
+Install-Package SendGrid
+```
+
+2. Migrate to database in **Ordering.Application**
+```
+Add-Migration InitialCreate
+```
+
+### Steps
 
 2. steps : 
 - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d

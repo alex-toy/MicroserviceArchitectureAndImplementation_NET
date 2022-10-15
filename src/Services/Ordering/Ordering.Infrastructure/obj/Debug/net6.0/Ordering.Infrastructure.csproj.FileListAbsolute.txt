@@ -3,3 +3,15 @@ C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Orde
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.AssemblyInfo.cs
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.deps.json
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Application.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Domain.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Application.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Domain.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.csproj.CopyComplete
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\refint\Ordering.Infrastructure.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\ref\Ordering.Infrastructure.dll
