@@ -139,32 +139,32 @@ Go inside Developper Powershell
 - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
 - go to **portainer** : http://localhost:9000
 
-<img src="/pictures/portainer_discount.png" title="portainer"  width="800">
+<img src="/pictures/portainer_discount.png" title="portainer discount"  width="800">
 
 - go to **pgadmin** : http://localhost:5050
 
-<img src="/pictures/pgadmin.png" title="portainer"  width="800">
+<img src="/pictures/pgadmin.png" title="pgadmin"  width="800">
 
 - click **Add New Server** and add *DiscountServer*, *discountdb*, username and password
 
-<img src="/pictures/pgadmin1.png" title="portainer"  width="300">
-<img src="/pictures/pgadmin2.png" title="portainer"  width="300">
+<img src="/pictures/pgadmin1.png" title="pgadmin"  width="300">
+<img src="/pictures/pgadmin2.png" title="pgadmin"  width="300">
 
 - You should now see a successfully created database :
 
-<img src="/pictures/pgadmin3.png" title="portainer"  width="800">
+<img src="/pictures/pgadmin3.png" title="pgadmin"  width="800">
 
 - Inside the *pgadmin* portal, *Tools/Query Tool*, create new tables with the help of *discount.sql*, the add some data :
 
-<img src="/pictures/pgadmin4.png" title="portainer"  width="400">
-<img src="/pictures/pgadmin5.png" title="portainer"  width="400">
+<img src="/pictures/pgadmin4.png" title="pgadmin"  width="400">
+<img src="/pictures/pgadmin5.png" title="pgadmin"  width="400">
 
 3. Run *Discount.API* microservice **locally**
     - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
     - run : docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
     - Hit **Discount.API**
 
-<img src="/pictures/discount_local.png" title="portainer"  width="800">
+<img src="/pictures/discount_local.png" title="discount local"  width="800">
 
 - Run *Discount.API* microservice **containerized**
     - run : docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
@@ -204,12 +204,12 @@ Update-Package -ProjectName Discount.Grpc
 
 - click **Add New Server** and add *DiscountServer*, *discountdb*, username and password
 
-<img src="/pictures/pgadmin1.png" title="portainer"  width="300">
-<img src="/pictures/pgadmin2.png" title="portainer"  width="300">
+<img src="/pictures/pgadmin1.png" title="pgadmin"  width="300">
+<img src="/pictures/pgadmin2.png" title="pgadmin"  width="300">
 
 - You should now see the previously created tables :
 
-<img src="/pictures/pgadmin6.png" title="portainer"  width="500">
+<img src="/pictures/pgadmin6.png" title="pgadmin"  width="500">
 
 
 
@@ -243,18 +243,40 @@ Install-Package MassTransit
 Install-Package SendGrid
 ```
 
-2. Migrate to database in **Ordering.Application**
+4. Migrate to database in **Ordering.Application**
 ```
 Add-Migration InitialCreate
 ```
 
-### Steps
-
-2. steps : 
+### Run steps local
+ 
 - docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
-- go to  : http://localhost:9000
+- Hit **Ordering.API**
+- go to  : http://localhost:5004
 
-<img src="/pictures/portainer_discount.png" title="portainer"  width="800">
+<img src="/pictures/ordering_api.png" title="orderingapi"  width="800">
+
+
+### Connect to database
+ 
+- Add a SQLServer connection
+
+<img src="/pictures/sql_server_connection.png" title="sql server connection"  width="400">
+ 
+- Get the password from the docker override configuration
+
+<img src="/pictures/sql_server_connection2.png" title="sql server connection"  width="400">
+
+### Run steps
+
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to  : http://localhost:8004/swagger/index.html
+- go to **portainer** : http://localhost:9000
+
+<img src="/pictures/portainer_ordering.png" title="portainer ordering"  width="800">
+
+
 
 
 
