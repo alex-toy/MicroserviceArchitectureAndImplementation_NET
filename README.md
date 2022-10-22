@@ -278,14 +278,56 @@ Add-Migration InitialCreate
 
 
 
+## RabbitMQ
+
+### Docker
+
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to  : http://localhost:15672
+- Default identifiers : guest - guest
+
+<img src="/pictures/rabbitmq_dashboard.png" title="rabbitmq dashboard"  width="800">
+
+### Packages
+
+1. Package Manager Command in **Basket.API**
+```
+Install-Package MassTransit
+Install-Package MassTransit.RabbitMQ
+Install-Package MassTransit.AspNetCore
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+```
+
+2. Package Manager Command in **Ordering.API**
+```
+Install-Package MassTransit
+Install-Package MassTransit.RabbitMQ
+Install-Package MassTransit.AspNetCore
+Install-Package AutoMapper
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+```
+
+### References
+
+1. Add a project reference from *Basket.API* to *EventBus.Messages*
+2. Add a project reference from *Ordering.API* to *EventBus.Messages*
 
 
+### Dockerfile
+
+1. Regenerate *Basket.API* Dockerfile in order to add *EventBus.Messages*
+2. Regenerate *Ordering.API* Dockerfile in order to add *EventBus.Messages*
 
 
+In the end, you can 
 
+- visualize RabbitMQ :
 
+<img src="/pictures/rabbitmq_overview.png" title="rabbitmq overview"  width="800">
 
+- see rabbitmq on **portainer** : http://localhost:9000
 
+<img src="/pictures/portainer_rabbitmq.png" title="portainer rabbitmq"  width="800">
 
 
 

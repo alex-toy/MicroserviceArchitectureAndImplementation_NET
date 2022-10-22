@@ -107,3 +107,14 @@ C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Bask
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\MassTransit.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\EventBus.Messages.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\EventBus.Messages.pdb
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\AutoMapper.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
