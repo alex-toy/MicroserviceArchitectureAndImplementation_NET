@@ -1,7 +1,5 @@
 # Microservice Architecture And Implementation .NET
 
-https://github.com/mehmetozkaya/AspnetMicroservices
-
 ## Generals
 
 ### Docker general commands
@@ -358,6 +356,26 @@ In a dockerized environment :
 
 - go to  : http://localhost:8010/Order/alex
 - go to  : http://localhost:8010/Catalog
+
+
+
+## Shopping.Aggregator
+
+### Docker
+
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to *catalog.api* : http://localhost:8080/swagger/index.html
+- go to *basket.api* : http://localhost:8001/swagger/index.html
+- go to *basket.api* : http://localhost:8005/swagger/index.html
+- go to **portainer** : http://localhost:9000
+
+### Run steps local
+
+- Hit **Shopping.Aggregator**
+- go to  : http://localhost:5013/swagger/index.html
+
+<img src="/pictures/shopping_aggregator.png" title="shopping aggregator"  width="800">
 
 
 

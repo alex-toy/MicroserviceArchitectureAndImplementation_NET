@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{438EC2A5-A76C-493E-B0E9-DB3C4FB99B77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{DE68CADE-CA28-4A74-8A78-24445DC4FC34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{DE68CADE-CA28-4A74-8A78-24445DC4FC34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{B666E9DA-36C0-4AA0-B561-F50DA5D52210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,14 @@ Global
 		{DE68CADE-CA28-4A74-8A78-24445DC4FC34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE68CADE-CA28-4A74-8A78-24445DC4FC34}.Release|x64.ActiveCfg = Release|Any CPU
 		{DE68CADE-CA28-4A74-8A78-24445DC4FC34}.Release|x64.Build.0 = Release|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Debug|x64.Build.0 = Debug|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Release|x64.ActiveCfg = Release|Any CPU
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +178,7 @@ Global
 		{DF1FFA15-4239-45AF-9596-3C9FEB0B79B9} = {0C10281E-A29A-4CE2-9CAC-222A7FEB53F9}
 		{C408F310-6C09-40F7-BA07-BEC4CD52B904} = {CB33EE30-1F3E-4C05-9609-D6CA26744886}
 		{DE68CADE-CA28-4A74-8A78-24445DC4FC34} = {438EC2A5-A76C-493E-B0E9-DB3C4FB99B77}
+		{B666E9DA-36C0-4AA0-B561-F50DA5D52210} = {438EC2A5-A76C-493E-B0E9-DB3C4FB99B77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {245751ED-F49D-4C9C-82D7-A4F479D8DE1D}
