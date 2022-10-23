@@ -66,9 +66,10 @@ Go inside Developper Powershell
 ## Basket.API with Redis
 
 1. Package Manager Command
-
-- Install-Package Microsoft.Extensions.Caching.StackExchangeRedis 
-- Update-Package -ProjectName Basket.API
+```
+Install-Package Microsoft.Extensions.Caching.StackExchangeRedis 
+Update-Package -ProjectName Basket.API
+```
 
 2. Docker commands 
 
@@ -321,13 +322,42 @@ Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
 
 In the end, you can 
 
-- visualize RabbitMQ :
+- visualize **RabbitMQ** on http://localhost:15672:
 
 <img src="/pictures/rabbitmq_overview.png" title="rabbitmq overview"  width="800">
 
-- see rabbitmq on **portainer** : http://localhost:9000
+- see *rabbitmq* on **portainer** : http://localhost:9000
 
 <img src="/pictures/portainer_rabbitmq.png" title="portainer rabbitmq"  width="800">
+
+
+
+## ApiGateways
+
+### Packages
+
+1. Package Manager Command in **OcelotApiGw.API**
+```
+Install-Package Ocelot
+Install-Package Ocelot.Cache.CacheManager
+Update-Package -ProjectName Basket.API
+```
+
+### Docker
+
+- docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+- go to  : http://localhost:5011/Order/alex
+
+<img src="/pictures/ocelot.png" title="ocelot"  width="800">
+
+- see *ocelotapigw* on **portainer** : http://localhost:9000
+
+<img src="/pictures/portainer_ocelotapigw.png" title="portainer ocelotapigw"  width="800">
+
+In a dockerized environment :
+
+- go to  : http://localhost:8010/Order/alex
+- go to  : http://localhost:8010/Catalog
 
 
 

@@ -118,3 +118,10 @@ C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Bask
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\EventBus.Messages.pdb
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\AutoMapper.dll
 C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\FluentValidation.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\source\Csharp\MicroserviceArchitectureAndImplementation_NET\src\Services\Basket\Basket.API\bin\Debug\net6.0\Ocelot.dll
